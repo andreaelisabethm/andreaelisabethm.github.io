@@ -9,11 +9,13 @@ $(document).ready(function(){
 	//hover postkarte-btn
 	$('#postkarte-btn').hover(function(){
 		console.log('Dies ist ein hover Effekt!');
+		$('#postkarte-btn').text('Jetzt bin ich rot');
 		$('#postkarte-btn').css({
 			backgroundColor: '#DD6A61'
 		}); //end postkarte css
 	}, function(){
 		console.log('hover Effekt vorbei!');
+		$('#postkarte-btn').text('..und jetzt blau!');
 		$('#postkarte-btn').css({
 			backgroundColor: '#455495'
 		}); //end postkarte css
