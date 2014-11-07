@@ -1,0 +1,88 @@
+/*myCustom CSS*/
+
+
+/*****************
+General Styling
+******************/
+
+
+
+/*****************
+Header Styling
+******************/
+
+
+
+/*****************
+Navbar Styling
+******************/
+
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #455495;
+	color: white;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: white;
+}
+
+/*****************
+Content Styling
+******************/
+
+/****Glyphicons****/
+
+.glyphicon-info-sign {
+	color: #455495;
+}
+
+/****Tabs****/
+
+.tab-pane {
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+
+/****Buttons****/
+
+.btn-default {
+    background-color: #455495;
+    border-color: #455495;
+    color: #fff;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active, .open >
+.dropdown-toggle.btn-default {
+    background-color: #DD6A61;
+    border-color: #DD6A61;
+    color: #fff;
+}
+
+
+
+
+
+
+/*****************
+Footer Styling
+******************/
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
+

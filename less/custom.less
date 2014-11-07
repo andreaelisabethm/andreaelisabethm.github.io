@@ -1,0 +1,117 @@
+/*myCustom CSS*/
+
+
+/*****************
+General Styling
+******************/
+
+
+/*****************
+Header Styling
+******************/
+
+header {
+	padding-top: 1em;
+}
+
+
+/*****************
+Navbar Styling
+******************/
+
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #455495;
+	color: white;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/*****************
+Content Styling
+******************/
+
+/****Jumbotron****/
+@media screen and (min-width: @screen-sm-min) {
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: (@font-size-base * 3);
+  }
+}
+.jumbotron {
+	border: 5px solid black;
+}
+
+/****Heading****/
+h2 {
+	color: @brand-primary;
+}
+
+/****Panel****/
+.panel {
+	border: 5px solid black;
+	
+	.panel-heading {
+	  padding: @panel-heading-padding;
+	  border-bottom: 1px solid transparent;
+	  background-color: lighten(@brand-primary, 10%);
+  }
+  .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: ceil((@font-size-base * 1.125));
+    color: #fff;
+  }
+}
+
+/****Modals****/
+.modal-dialog {
+	background-color: #fff;
+}
+
+/****Glyphicons****/
+.glyphicon {
+	padding-right: 1em;
+}
+
+/****Tabs****/
+.tab-content {
+	border-left: 1px solid @nav-tabs-border-color;
+	border-right: 1px solid @nav-tabs-border-color;
+	border-bottom: 1px solid @nav-tabs-border-color;
+	padding: 0.8em;
+}
+
+/****Buttons with mixins****/
+.btn-secondary {
+	.button-variant(#fff; @brand-primary; darken(@brand-primary, 20%)); 
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+
+
+
+/*****************
+Footer Styling
+******************/
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
+
